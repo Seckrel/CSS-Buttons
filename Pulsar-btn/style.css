@@ -1,0 +1,60 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-size: 14px;
+}
+form{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+.pulsar-btn{
+    /* background-color: rgb(93, 54, 233); */
+    background: linear-gradient(35deg,rgb(54, 227, 233), rgb(93, 54, 233));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 2em;
+    font-weight: 15px;
+    color: black;
+    animation: anime 2s ease .4s infinite normal;
+    transform: translateX(-50%);
+    -webkit-box-reflect: below;
+    
+}
+@keyframes anime{
+    10%{
+        box-shadow: 0 0 10px 0 rgb(93, 54, 233);
+    }
+    20%{
+        box-shadow: 0 0 10px 0 rgb(93, 54, 233), 0 0 30px 0 rgb(93, 54, 233);
+    }
+    30%{
+        box-shadow: 0 0 10px 0 rgb(93, 54, 233),0 0 30px 0 rgb(93, 54, 233), 0 0 50px 0 rgb(93, 54, 233);
+    }40%{
+        box-shadow: 0 0 10px 0 rgb(93, 54, 233),0 0 30px 0 rgb(93, 54, 233),0 0 50px 0 rgb(93, 54, 233);
+    }50%{
+        box-shadow: 0 0 10px 0 rgb(93, 54, 233),0 0 30px 0 rgb(93, 54, 233),0 0 50px 0 rgb(93, 54, 233),0 0 80px 0 rgb(93, 54, 233);
+    }60%{
+        box-shadow: 0 0 10px 0 rgb(93, 54, 233),0 0 30px 0 rgb(93, 54, 233),0 0 50px 0 rgb(93, 54, 233);
+    }70%{
+        box-shadow: 0 0 10px 0 rgb(93, 54, 233),0 0 30px 0 rgb(93, 54, 233), 0 0 50px 0 rgb(93, 54, 233);
+    }80%{
+        box-shadow: 0 0 10px 0 rgb(93, 54, 233), 0 0 30px 0 rgb(93, 54, 233);
+    }100%{
+        box-shadow: 0 0 10px 0 rgb(93, 54, 233);
+    }
+}
+
+
+
+
